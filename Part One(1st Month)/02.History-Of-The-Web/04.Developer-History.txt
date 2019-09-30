@@ -1,0 +1,20 @@
+                                                    HISTORY:
+                                              FULL STACK DEVELOPER
+                 ----------------------------------     ---------------------------------                               --                                                                    --
+
+          Front End Developer                                                   Back End Developer 
+                                                                      LAMP stack (Linux, Apache, mySQL, PHP)
+                 HTML                                                              Apache Server 
+                 CSS                                                                    PHP
+         JavaScript + JQuery                                                       Database mySQL
+
+
+                                                      NOW:
+                                              FULL STACK DEVELOPER
+                 ----------------------------------     ---------------------------------                               --                                                                    --
+
+          Front End Developer                                                   Back End Developer 
+                                                                            
+                 HTML5                                                     Node Server(Node.js, Express.js) 
+                 CSS3                                                               PostgreSQL 
+         JavaScript + React                                                          MongoDB

@@ -1,0 +1,71 @@
+/* 
+CSS Syntax (Cascading Style sheet: 
+Selector {
+  Property: value;
+}
+*/
+* {
+  text-align: right;
+}
+body {
+  background-image: url(backgroundImage.jpg);
+  background-size: cover;
+}
+
+h2,section {
+  color: #AA3939;
+  text-align: center;
+  border: 3px solid rgba( 255, 170, 170, 0.5);
+  cursor: pointer;
+}
+p {
+  margin: 0 auto;
+  text-decoration: underline;
+  color: #AA3939;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 120%;
+  font-family: 'Courier New', Courier, monospace;
+  width: 500px;
+  padding: 2rem;
+}
+p:hover {
+  /* color: blue; */
+  cursor: pointer;
+}
+
+img {
+  float: left;
+}
+footer {
+  clear: both;
+  text-align: center;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+/* CLASSES */
+.web-text {
+  border: 3px dashed green;
+  padding: 1rem;
+}
+.web-text:first-child {
+  background-color: rgba(52, 170, 216, 0.158);
+}
+.web-text:last-child {
+  background-color: rgba(255, 166, 0, 0.158);
+}
+.active {
+  color: red;
+}
+
+/* ID's */
+#div1 {
+  background-color:  rgba(76, 103, 221, 0.164);
+}
+#div2 {
+  background-color:  rgba(63, 231, 139, 0.164);
+}

@@ -1,0 +1,10 @@
+But this is the mistake that I made when I first started off. I thought I had to know everything in HTML.
+
+Everything in CSS before I even touched Javascript. So I spent way too much time learning everything about HTML. Everything about CSS... getting frustrated
+
+If this was that easy then every single person would be doing it but it's not. It's tough to master these skills but each day you make small little progress step by step. So you become better.
+
+However, I don't want you to fall into the trap that I did... that is to not start off learning javascript right away, because you see these circles over here these circle the size of them represent how important they are to your career.
+
+Now if you want to be a web designer. Designing websites and making things look pretty then CSS is quite important to you.
+However, if you want to be a developer: somebody that works on logic on javascript and builds applications Well you need to focus on Javascript, because although you need to know CSS those things that you're going to work on while working on Javascript.

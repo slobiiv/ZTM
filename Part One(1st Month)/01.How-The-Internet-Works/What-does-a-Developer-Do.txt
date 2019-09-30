@@ -1,0 +1,8 @@
+                                              FULL STACK DEVELOPER
+                 ----------------------------------     ---------------------------------                               --                                                                    --
+
+          Front End Developer                                                    Back End Developer 
+
+                 HTML                                                                  Server
+                 CSS                                                              Node.js Express.js
+         JavaScript + Redux                                                       Database PostgreSQL

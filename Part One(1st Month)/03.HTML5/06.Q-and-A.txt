@@ -1,0 +1,13 @@
+01) index.html ?
+    - When we make the request to let's say google.com, how does the server know which html (file)   to return first for the homepage? By default most servers just say, "I'll return 'index.html'- if I see 'index.html'. This is just a common practice. index.html',you can think of it as the home-page, the first a HTML file that SERVER returns
+
+02) Relative vs Absolute Path
+
+    Relative: 
+    - I can't really access the link outside of my computer. Example: If I go to my 'index.html', I'm saying go to link to 'new-page.html' relative to 'index.html'. 
+    'index.html' and new-page.html' live in the same folder
+    (<a href="05.new-page.html">New Page</a>)
+
+    Absolute:
+    - If we wanted our anchor tag, 'new-page.html' to actually link to something, other website, article,(anything on internet), We can copy the link with the https protocol, open up, and now this is an ABSOLUTE link, no matter where we reference this.
+    <a href="https://www.youtube.com/watch?v=ueVnSz_lXEs&list=PL6gx4Cwl9DGBpuvPW0aHa7mKdn_k9SPKO">New Page</a>

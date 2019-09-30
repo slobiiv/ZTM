@@ -1,0 +1,18 @@
+h2 {
+  color: blue;
+}
+.boxmodel {
+  border: 2px solid red;
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 0 20px;
+}
+p {
+  font-size: 20px;
+}
+span {
+  font-size:5em; /* We want the font size to be equal to 5 times the containing element which is 20 pixels.This will be 5 * containing element(20px) = 100px */
+}
+span {
+font-size: 2rem; /* It's the size in relation to the size of the root element. */
+}

@@ -1,0 +1,4 @@
+1.) Home Local Area Network => Wireless Modem on Home
+2.) This modem has the signal towers that transmit signals of
+3.) This wire from transmitter is connected all the way to the ISP(Internet Service Provider)
+4.) ISP is connected to the Internet Backbone (https://www.submarinecablemap.com/)

@@ -1,0 +1,4 @@
+ How to improve website performance?
+   - Location of the server (we used tracert; if the server are close that hop is fast, versus if it's far away it takes time)
+   - How many Trips (hopefully just one. Less trips  faster we get the files)
+   - Size Of Files (html, css, JavaScript files ...)

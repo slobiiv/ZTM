@@ -1,0 +1,36 @@
+BEST SOURCE OF CSS Properties :  https://css-tricks.com/almanac/
+
+               IMAGES : https://unsplash.com
+               COLORS : https://paletton.com
+               FONTS :  https://fonts.google.com
+
+* Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter!
+
+What Selectors can have:
+  .class
+  #id (only ones)
+  * (all elements)
+  element
+  element, element (selecting both h2, p)
+  element1 element2 ( select all elements2 in element1)
+  element1 > element2 (select all element2 that have parent element1 )
+  element1 + element2 (select any element2 that is exactly after an element1)
+  :hover { change behavior of element on hover, or mouse-over}
+  :first-child (selects an first child of an element)
+  :last-child (selects an  last child of an element)
+  :important (Not recommended)
+
+  What selectors win out in the cascade depends on : 
+    - Specificity (Calculator : https://specificity.keegan.st/)
+    - Importance
+    - Source Order (In case we have more style-sheets imported, the style that happens after gets added.)
+
+    * the more specific something is, the more likely it will win out and make sure that that is the style.
+
+
+    * GREAT EXERCISE FOR SELECTORS : https://flukeout.github.io/ (REVISIT!)
+
+___________________________
+BOX-MODEL contains : content, border, padding, margin
+___________________________
+PX vs EM vs REM : 

@@ -1,0 +1,9 @@
+So when we enter Google.com we press enter on our keyboard, We ask a question who's this Google.com fellow?
+And that question gets asked all the way down to our ISP. ISP is Internet Service Provider those are the people that you pay so you can have the Internet.
+
+So they get that request and they send that off to something called the DNS server so Domain Name Servers.
+Essentially it's a phone book - a phone book that has the list of all these URLs.
+DNS know the address. So they send off that request back through the ISP and the website or the web browser,( Google Chrome) in this case gets "172.217.7.23" . OK we receive - it's what we call an IP address.
+
+So We know this IP address - the browser sends off another request to the Google servers and it knows where the Google servers are because We have this address so we go seek it out and you can think of servers as computers essentially.
+(My laptop could be a server). So we send this off and the Google servers gives you his HTML CSS and Javascript so we can have Google working.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Sizing Tracks</title>
+<style>
+  .container {
+    display: grid;
+    grid-gap: 20px;
+    border: 10px solid var(--yellow);
+    /* grid-template-columns: 200px 200px; */
+    /* grid-template-columns: 25% 25% 25% 25%; Not the best Idea */
+
+    /* fr - Fractional unit (free space) represent the amount of space left after all the elements are layed out */
+    grid-template-columns: 1fr 1fr 2fr 1fr; /* recommended usage of fractions */
+    grid-template-rows: 200px 200px 1fr 2fr;
+    /* we can add a height for the container */
+    grid-template-columns: auto 1fr auto 1fr; /* auto will fill the width of the size of it's content and 1fr will fill the whole rest amount of space */
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+    <div class="item">Auto</div>
+    <div class="item">1fr</div>
+  </div>
+</body>
+</html>

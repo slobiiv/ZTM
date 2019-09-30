@@ -1,0 +1,3 @@
+While on Google.com page, Open Developer Tools in Browser(Ctrl + Shift + i for Mozilla), in the same tools click on arrow on the very left corner and select any piece on the Google website to select an element.
+
+We actually modified just the files that we have requested on the page, soon after we request another page from DNS Server we will get the page without changes.

@@ -1,0 +1,23 @@
+1.) Why You would want to be a developer?
+    Flexibility, Creativity, Never ending learning
+2.) What you should learn?
+    We are going to learn JavaScript
+    We are going to learn React.js
+    We are going to learn Github
+    (https://stackoverflow.com - You'll go on to this website to ask questions and get answers almost daily. )
+3.) The type of work you'll be able to do when you become a web developer:
+    Entrepreneurship
+    Startups
+    Freelance
+    The Big Tech Companies
+    Ad Agencies
+    Remote work
+
+    ** KEEP IN MIND that when you start off something like learning devolvement skills the first two months will feel
+       like you are climbing an insurmountable mountain. Every video or course or tutorial or book that you read is going to make you feel like you're the only person in the world that doesn't know this stuff. 
+       But I'm here to tell you to stay strong.
+    ** What you'll learn is that being a good developer isn't necessarily memorizing a whole bunch of documentation 
+       or code. It's about learning how to solve problems using all the tools that are available to you.
+       And I'm going to leave you with that.
+       Being a developer isn't easy.
+       You really do need to know your stuff.

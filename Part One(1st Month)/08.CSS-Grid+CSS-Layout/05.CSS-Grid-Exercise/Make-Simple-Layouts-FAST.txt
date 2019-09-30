@@ -1,0 +1,4 @@
+* We need to know how to create a website, how to layout a website but also not spend a lot of time on simple tasks.
+
+** The one thing that I really want to take away from this section is being able to build web sites fast or at least 
+   get to the part where you need to start writing javascript because that's where your real job begins.

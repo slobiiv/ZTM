@@ -1,0 +1,6 @@
+* We have multiple Web Browser - and through HTML, CSS, JS we have beautiful websites.
+* We need to figure out that whenever we send our files to the web browser, it all looks the same.
+  And that is one of the biggest problems
+* We also have mobile phones now that access the Internet. We have iPads.
+  You also have to make sure that our web sites look good on small screens on big screens on all sorts
+  of different screens, and that is a very important concept something that, when you get to become a web-developer you'll encounter this problem where you have to test on each device, each browser to make sure everything works.

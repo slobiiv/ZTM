@@ -1,0 +1,7 @@
+Putting Website on Github for free (STEPS):
+  - Start a Project
+  - Repository name: username.github.io
+  - Create Repository
+  - Setup on Desktop (Github desktop needed)
+  - Clone Repository
+  - Select the recommended Repository

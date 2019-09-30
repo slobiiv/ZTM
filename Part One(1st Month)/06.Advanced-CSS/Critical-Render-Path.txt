@@ -1,0 +1,12 @@
+* When we talk about the critical render path we like to mention that CSS is a render blocking file so you won't be able to render a Web page until you receive your CSS and sometimes, if you have font files, you'll also have to wait for the text to render on the page.
+So keep that in mind when you build your websites.
+
+* What are some things that we can consider when doing this, so that our websites load up faster?
+One is maybe to have our own font files.
+Another one might be, that you don't want to make your CSS too big if we had hundreds and hundreds of lines of code of CSS.
+
+* One method that people have used and you'll see often is something, called 'minifying' your CSS. 
+(https://cssminifier.com/).
+And what Minify does - it removes all the whitespace so everything is on one line, just really tiny together.
+
+*******That is the critical render path, a path that a website takes to display something to the user. 

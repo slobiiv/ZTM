@@ -1,0 +1,5 @@
+HTML - is the way to write text on websites with hyperlinks to link us to other websites(1991)
+CSS - solved the problem with styling (1995)
+JS - made website more user friendly (interactive). (1995)
+
+practicing CSS and JS (alert()) inside the developer tools on the first website  of Sir Berners-Lee

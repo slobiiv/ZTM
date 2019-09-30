@@ -1,0 +1,22 @@
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+}
+html {
+  box-sizing: border-box;
+}
+h1,h2,h3 {
+  text-align: center;
+}
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 35px;
+  background: var(--yellow);
+}
+.item p {
+  margin: 0 0 5px 0;
+}

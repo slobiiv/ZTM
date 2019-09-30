@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+</head>
+<body>
+  <form method="GET">
+    First Name: <input type="text" name="first-name"> <br/>
+    Last Name: <input type="text" name="last-name"> <br/>
+    <!-- for Email, type="email" with the attribute of required -->
+    Email: <input type="email" name="email" required> <br/>
+    <!-- Password min="8" is for minimum of characters -->
+    Password: <input type="password" name="password" min="8"> <br/>
+    Birthday: <input type="date" name="birthday"> <br/>
+
+    Gender:<br/> <!-- Add name with the same value -->
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+    <input type="radio" name="gender" value="Other">Other <br/>
+
+    Pets: <br />
+    <input type="checkbox" name="dog">Dogs
+    <input type="checkbox" name="cat">Cat <br />
+
+    Cars: <br />
+    <select name="cars">
+      <option value="Volvo" name="volvo">Volvo</option>
+      <option value="BMW" name="bmw">BMW</option>
+    </select> <br />
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+  </form>
+
+<!-- After submitting the form this info  ends up getting through browser:
+  Look at this as => value=""
+  "property" = "value":
+  ?
+  first-name=Slobodan
+  &last-name=Vlaic
+  &email=slobiiv%40gmail.com
+  &password=234567t
+  &birthday=2019-07-30
+  &gender=Male
+  &dog=on
+  &cars=Volvo
+-->
+
+
+  <a href="01.HTML-Forms.html">Back</a>
+</body>
+</html>

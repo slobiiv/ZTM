@@ -1,0 +1,14 @@
+There are three really good ways to do Layout this year:
+  - One is something that we've discussed and that is FLEXBOX.
+  - Another one was Bootstrap 4 (Bootstrap came before we had flexbox and Css grid)
+  - and we are going to learn now about CSS Grid 
+
+  ***  CSS grid and FlexBox work really well together.
+       You don't only have to use just flexbox or justCSS grid. Use them both together and
+
+  When it comes to Layout, good way to think about flexbox vs CSS grid is :
+    - Flexbox is One Dimensional
+    - CSS Grid is Two Dimensional
+
+    *** It Is more important for us to learn FLEXBOX and CSS GRID because now if we know these two we can create
+        any sort of LAYOUT!

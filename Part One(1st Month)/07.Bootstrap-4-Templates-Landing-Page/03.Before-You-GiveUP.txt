@@ -1,0 +1,24 @@
+Before You Give Up
+
+Here is the thing: Being a developer is hard. 
+As a matter of fact, any profession that pays well and is in demand is that way because not everybody can do it. 
+The people who succeed and get through the hard parts at the beginning, will be the ones who are rewarded. 
+For this exercise, really try to push your boundaries and create a startup landing page on your own. 
+Although you may think that you are a long way to go until you can build something on your own, 
+in real life this is always the case: You will never have 100% knowledge of how to do something from the beginning. 
+You start step by step, asking question on Discord, searching through google, trial and error while coding, 
+until you get to the finish line. This is how real life of a developer works: 
+You don't have an answer or someone you can follow along. 
+People pay you money to solve hard problems that don't have a clear solution. 
+So my challenge to you is this:
+Based on your current skill, build something and challenge yourself.
+ You may be surprised at what you are capable of doing with just the few things you have learned up until now. 
+ It's easy to follow along a video and watch somebody code. 
+ It's a lot harder to come to something on your own.
+
+In the next lecture you will see my solution files, however there are many solutions possible here. 
+No code is ever the same and everyone builds things differently. 
+Just remember: 
+Successful developers are the ones who struggle to improve their skills, and practice. 
+
+Have fun :)

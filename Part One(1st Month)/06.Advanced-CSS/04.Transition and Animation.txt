@@ -1,0 +1,6 @@
+
+SOURCE: https://thoughtbot.com/blog/transitions-and-transforms
+
+What are transforms and transitions? 
+  At their most basic level, transforms move or change the appearance of an element, 
+  while transitions make the element smoothly and gradually change from one state to another.

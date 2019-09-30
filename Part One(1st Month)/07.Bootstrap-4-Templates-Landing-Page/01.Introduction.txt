@@ -1,0 +1,17 @@
+
+Follow this example to instal Bootstrap: 
+https://getbootstrap.com/ -> 
+Get Started ->
+Copy CSS link ->
+Copy JavaScript link
+
+
+
+
+
+
+
+
+
+
+https://v4-alpha.getbootstrap.com/getting-started/introduction/

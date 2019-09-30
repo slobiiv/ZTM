@@ -1,0 +1,9 @@
+*** The best developers are the ones who are left to their own devices to figure out a problem.
+    They are able to find errors in their code and solve it themselves. They have questions or something they don't understand. Well no problem. They know how to use the resources they have to figure it out.
+    At the end of the day we are engineers. This is what we do and this is a developer fundamental.
+
+    1.) 1st stop is Google
+        https://stackoverflow.com is probably the best website for answer to your questions
+        - check votes, scroll and check if the answer is updated or posted as newer...
+    2.) Learn to debug your own code. 
+        Develop them muscle and you'll be a great developer.
