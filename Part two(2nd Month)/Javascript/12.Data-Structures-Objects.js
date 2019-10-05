@@ -25,7 +25,7 @@ user.spells = ['abracadabra', 'Sha-zam','Boo'];
 user.spells[0]; // abracadabra
 
 user.shout = function() {console.log('AAAAAAAAH')};
-user.shout(); // AAAAAAAAH (this is a METHOD - Remember, Function inside the Object is a Method)
+user.shout(); // AAAAAAAAH (this is a METHOD - Remember, Function inside the Object is a Method). 'shout' is a Method of a'user'
 
 /* Can I have an Object(user) inside of an array? */
 var listOfUsers = [
@@ -34,3 +34,15 @@ var listOfUsers = [
   {name: 'Robert', password:'king-Arthas',}
 ];
 listOfUsers[1].name; // Teresa
+
+
+/* 
+There can be an empty object.
+So if I do 'var' empty object, well it's an empty object but there is something called 'null'.
+And that is our sixth datatype and 'null' is a special type that just says that an object is null. 
+*/
+var emptyObj = {}; // returns empty Object{}
+emptyObj.name = 'Slobo'; //add name with value of 'Slobo'
+
+var nullObj = null; // returns javascript type of NULL
+nullObj.name = 'Andy'; // Type ERROR. CANNOT SET PROPERTY 'name' OF NULL
