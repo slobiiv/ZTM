@@ -15,7 +15,7 @@
   ];
   
 // 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
-  var newsfeed = [
+  var newsFeed = [
     {
       username:'Dan88',
       timeline: 'When nothing goes right, go left.'
@@ -36,10 +36,9 @@
 
   function signIn(username, password) {
     if(username === database[0].username  && password === database[0].password ) {
-      alert('You are logged in!')
-      console.log(newsfeed);
+      console.log(newsFeed);
     } else {
-      alert('Your details are incorrect!');
+      alert('Sorry. Wrong username or password.');
     }
   }
   signIn(userNamePrompt,passwordPrompt);
