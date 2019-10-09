@@ -17,14 +17,26 @@
 */
 
 /* CHANGING STYLES:
-  - style.{property} // The issue is Separation of Concerns. We don't want to do styles. We will use className and classList
+  - style.{property} // (NOT RECOMMENDED) The issue is Separation of Concerns. * We don't want to do styles. We will use className and classList
     document.querySelector('h1').style.background = 'yellow';
 
-  - className // best
-  - classList // best
+        WE WANT TO HAVE THAT SEPARATION OF:
+          - HTML - FOCUSES ON TEXT
+          - CSS - FOCUSES ON STYLE
+          - JAVASCRIPT - FOCUSES ON ACTIONS
 
-  - classList.add
-  - classList.remove
-  - classList.toggle
+    (RECOMMENDED METHODS)
+  - className // best
+        var h1 = document.querySelector('h1');
+        h1.className = 'coolTitle'; * Then in Css we will make a 'coolTitle' class with an appropriate style
+        'h1' has a class noc of 'coolTitle' <h1 class="coolTitle">
+
+  - classList // best
+        We use this one if an element has already class.
+        document.querySelector('li').classList; (DOMTokenList [ "bold", "red" ])
+        This classList gives us methods that we can use:
+          - classList.add - document.querySelector('li').classList.add('done');
+          - classList.remove - document.querySelector('li').classList.add('coolTitle');
+          - classList.toggle - document.querySelector('li').classList.add('done'); (switch between false{off} and true{on})
   
   */
