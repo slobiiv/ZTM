@@ -40,3 +40,19 @@
           - classList.toggle - document.querySelector('li').classList.add('done'); (switch between false{off} and true{on})
   
   */
+
+  /* BONUS:
+  innerHTML - (DANGEROUS)
+    document.querySelector('h1').innerHTML = '!!!';
+  
+  parentElement
+    document.querySelectorAll('li')[1]; <li>Jello</li>
+    document.querySelectorAll('li')[1].parentElement; // <ul></ul>
+    document.querySelectorAll('li')[1];.parentElement.parentElement; <body></body>
+  children
+    document.querySelectorAll('li')[1].parentElement.children; // all the children od the body
+  */
+
+  /* 
+  It is really important to Cache Selectors and Variables.
+  */
