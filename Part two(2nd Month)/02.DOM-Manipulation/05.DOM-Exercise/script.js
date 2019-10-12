@@ -3,7 +3,7 @@ Exercise: DOM Events
 
 Using the Shopping List files from the previous videos update the shopping list app to do the following:
 
-1. If you click on the list item, it toggles the .done  class on and off.
+1. If you click on the list item, it toggles the .done  class on and off. DONE BY MYSELF (ARSEN HELPED!)
 
 2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button.
 
@@ -23,34 +23,44 @@ PS - if you have any questions, reach out to our community in the #js or #helpme
 var button = document.getElementById('enter');
 var input = document.getElementById('user-input');
 var ul = document.querySelector('ul');
-var li = document.querySelector('li');
-
-li.addEventListener('click', function() {
-  li.classList.toggle('done');
-})
+var li = document.querySelectorAll('li');
+var btn = document.querySelector('ul').getElementsByTagName('button');
 
 
-button.addEventListener('click', function() {
+for(var i = 0; i < li.length; i++) {
+  li[i].onclick = function (event) {
+    return event.target.classList.toggle('done');
+  };
+}
+
+for(var i = 0; i < btn.length; i++) {
+  btn[i].onclick = function (event) {
+    return event.target.parentNode.remove(parent);
+  };
+}
+
+function inputLength() {
+  return input.value.length;
+}
+
+function createListElement() {
   var li = document.createElement('li');
-  var deleteBtn = document.createElement('button');
-  if(input.value.length > 0) {
-    li.appendChild(document.createTextNode(input.value));
-    ul.appendChild(li);
-    deleteBtn.appendChild(document.createTextNode('Remove'));
-    li.appendChild(deleteBtn);
-    input.value = "";
-  }
-})
+  li.appendChild(document.createTextNode(input.value));
+  ul.appendChild(li);
+  input.value = "";
+}
 
-input.addEventListener('keypress', function(event){
-  var li = document.createElement('li');
-  var deleteBtn = document.createElement('button');
-  if(input.value.length > 0 && event.keyCode === 13) {
-    li.appendChild(document.createTextNode(input.value));
-    ul.appendChild(li);
-    deleteBtn.appendChild(document.createTextNode('Remove'));
-    li.appendChild(deleteBtn);
-    input.value = "";
-  }
-})
 
+function addListAfterClick() {
+  if(inputLength() > 0) {
+    createListElement();
+  }
+}
+button.addEventListener('click', addListAfterClick);
+
+function addListAfterKeyPress(event) {
+  if(inputLength() > 0 && event.keyCode === 13) {
+    createListElement();
+  }
+}
+input.addEventListener('keypress', addListAfterKeyPress);

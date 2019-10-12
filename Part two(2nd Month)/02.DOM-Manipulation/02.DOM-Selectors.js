@@ -36,8 +36,8 @@
         document.querySelector('li').classList; (DOMTokenList [ "bold", "red" ])
         This classList gives us methods that we can use:
           - classList.add - document.querySelector('li').classList.add('done');
-          - classList.remove - document.querySelector('li').classList.add('coolTitle');
-          - classList.toggle - document.querySelector('li').classList.add('done'); (switch between false{off} and true{on})
+          - classList.remove - document.querySelector('li').classList.remove('coolTitle');
+          - classList.toggle - document.querySelector('li').classList.toggle('done'); (switch between false{off} and true{on})
   
   */
 
