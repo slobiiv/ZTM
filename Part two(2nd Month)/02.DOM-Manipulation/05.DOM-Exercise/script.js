@@ -26,6 +26,26 @@ var ul = document.querySelector('ul');
 var li = document.querySelectorAll('li');
 var btn = document.querySelector('ul').getElementsByTagName('button');
 
+function inputLength() {
+  return input.value.length;
+}
+
+function createListElement() {
+  var li = document.createElement('li');
+  li.appendChild(document.createTextNode(input.value));
+  ul.appendChild(li);
+  input.value = "";
+
+  var delBtn = document.createElement('button');
+  delBtn.appendChild(document.createTextNode('delete'));
+  li.appendChild(delBtn);
+  delBtn.onclick = removeParent;
+  //THIS FUNCTION WILL DO THIS FOR EVERY BUTTON CREATED.
+}
+
+function removeParent(evt){
+	evt.target.parentNode.remove();
+}
 
 for(var i = 0; i < li.length; i++) {
   li[i].onclick = function (event) {
@@ -39,16 +59,7 @@ for(var i = 0; i < btn.length; i++) {
   };
 }
 
-function inputLength() {
-  return input.value.length;
-}
 
-function createListElement() {
-  var li = document.createElement('li');
-  li.appendChild(document.createTextNode(input.value));
-  ul.appendChild(li);
-  input.value = "";
-}
 
 
 function addListAfterClick() {
