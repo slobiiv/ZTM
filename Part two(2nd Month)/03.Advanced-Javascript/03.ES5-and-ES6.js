@@ -58,11 +58,13 @@ const obj3 = {
 
 
 /* Template Strings */
-// const greeting = 'Hello' + name + ', how are you.' + greeting + '!';
-// const name = 'Sally';
-// const age = 37;
-// const pet = 'Horse';
-// const greetingECMA = `Hello ${name}, how are you. ${age - 10}. What a geourges ${pet} you have!`;
+//Instead :
+const greeting = 'Hello' + name + ', how are you.' + greeting + '!';
+const name = 'Sally';
+const age = 37;
+const pet = 'Horse';
+// Do :
+const greetingECMA = `Hello ${name}, how are you. ${age - 10}. What a geourges ${pet} you have!`;
 
 
 /* Default Arguments */
@@ -71,7 +73,23 @@ function greet(name='', age = 31, pet = 'Rabbit') {
 }
 
 
-/* SYMBOL */
+
+/* ARROW FUNCTIONS */
+
+// Instead:
+function add(a,b) {
+  return a + b;
+}
+// Do:
+const add2 = () => a +b; // => means, it's a function
+add2(4,2);
+
+
+
+
+
+
+/* SYMBOL - the symbol value is used as an indentifier mostly for object properties.  */
 let sym = Symbol();
 let sym2 = Symbol('foo');
 let sym3 = Symbol('foo');
