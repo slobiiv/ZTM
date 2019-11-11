@@ -22,8 +22,30 @@ const addHeartNextToNames = entries.flatMap(name => name + '<3'); // [ "bob<3", 
 
 
 
-// 
+// trimStart() and trimEnd()
 const userEmail1 = '         eddytheeagle@gmail.com';
 const userEmail2 = 'dangerousMatt@gmail.com        ';
 userEmail1.trimStart();
 userEmail2.trimEnd();
+
+
+
+// The Object.fromEntries() -  method transforms a list of KEY-VALUE pairs into an object.
+const userProfiles = [['commanderTom',23],['derekZlander', 40],['hansel', 18]];
+Object.fromEntries(userProfiles); // Object { commanderTom: 23, derekZlander: 40, hansel: 18 }
+
+// Doing Opposite
+const obj1 = {commanderTom: 23, derekZlander: 40, hansel: 18 };
+Object.entries(obj1); // 0: Array [ "commanderTom", 23 ] 1: Array [ "derekZlander", 40 ] 2: Array [ "hansel", 18 ]
+
+
+
+// try{} catch{} -  try and cache block in JavaScript allow us to try a piece of code and if there's any errors to catch them.
+try{
+  bob + true;
+} catch {
+  console.log('You have messed up');
+}
+/* It's the exact same thing as us writing 4 + 5.
+The only difference is that within this try block we're telling javascript Hey try this and if there's any errors on line 45then do something within the catch block. */
+// When i shows error it catches and displays the console.log message in this case
